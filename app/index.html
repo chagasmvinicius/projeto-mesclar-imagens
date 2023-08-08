@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Editar imagem</title>
+  <link rel="icon" href="./assets/favicon2.png" type="image/x-icon">
+  <link rel="stylesheet" href="../node_modules/normalize.css/normalize.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <div class="file-input-container">
+    <label for="img-input" class="file-label">
+      <i class="fas fa-image"></i>Escolha uma imagem
+    </label>
+    <input type="file" id="img-input" name="img-input" accept="image/*" class="hidden-file-input">
+  </div>
+
+  <div class="image-container">
+    <img id="newImg" src="">
+    <img id="background" src="./assets/background.png" class="overlay-image">
+  </div>
+  <p id="legenda">A imagem baixada terá a dimensão de 1080px por 1080px.</p>
+
+  <button class="button-with-icon" onclick="download()"><i class="fas fa-download"></i>Baixar imagem</button>
+
+  <script src="./script.js"></script>
+</body>
+
+</html>

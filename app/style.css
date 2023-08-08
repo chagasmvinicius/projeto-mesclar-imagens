@@ -1,0 +1,70 @@
+body {
+    background-color: aliceblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+button {
+    cursor: pointer;
+    display: inline-block;
+    padding: 8px;
+    background-color: #ffc115;
+    border: 1.5px solid black;
+    border-radius: 5px;
+}
+
+button:hover {
+    text-decoration: underline;
+}
+
+i {
+    margin-right: 5px;
+}
+
+.file-input-container {
+    position: relative;
+    display: inline-block;
+}
+
+.file-label {
+    cursor: pointer;
+    display: inline-block;
+    padding: 8px;
+    background-color: #ffc115;
+    border: 1.5px solid black;
+    border-radius: 5px;
+}
+
+.file-label:hover {
+    text-decoration: underline;
+}
+
+.hidden-file-input {
+    display: none;
+}
+
+.image-container {
+    cursor: progress;
+    align-items: center;
+    position: relative;
+}
+
+#legenda {
+    font-size: 15px;
+    text-decoration: overline;
+}
+
+img {
+    width: 500px;
+    height: 500px;
+    border: black 2px solid;
+}
+
+.overlay-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
